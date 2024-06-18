@@ -1,0 +1,64 @@
+/* CSS para Ciclos basico/medio/superior */
+/* USAR DIFERENTES IDS/CLASES PARA NO TENER ERRORES CON EL MAIN */
+#background-verde{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+    margin-top: 30px;
+
+    width: 90%;
+    background-color: #9fdbb7a6;
+    border-radius: 20px
+}
+.cursos {
+    width: 100%;
+    max-width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 70px;
+    margin: 15px 0 50px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b3d1c;
+}
+.curso, .curso > img {
+    background-color: #74ad8aa6;
+    width: 400px;
+    justify-items: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+}
+.titulo-cursos{
+    color: #195700a2;
+    margin-top: 50px;
+    font-size: 35px;
+}
+.titulo-cursos, .subtitulo-cursos{
+    margin-bottom: 10px;
+}
+
+.info-requisito {
+    width: 320px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.requisito {
+    display: flex;
+    width: 80%;
+    justify-content: start;
+    gap: 20px;
+}
+
+.titulo-requisito {
+    color: #195700a2;
+    font-size: 35px;
+    width: 80%;
+}
